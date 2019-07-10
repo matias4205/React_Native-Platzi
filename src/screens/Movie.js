@@ -14,9 +14,7 @@ class Movie extends Component {
     state = {
         opacity: new Animated.Value(0)
     }
-    constructor(){
-        
-    }
+
     closeVideo = () => {
         this.props.movieSelected(null);
     }
